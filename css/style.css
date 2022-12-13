@@ -735,7 +735,7 @@ li {
     background-image: url("../img/avatar.png");
 }
 
-.subscribe_block > span {
+.subscribe_block > h5 {
     margin-top: 30px;
     font-weight: 400;
     font-size: 20px;
@@ -743,7 +743,7 @@ li {
     text-align: center;
 }
 
-.subscribe_block > span > span {
+.subscribe_block > h5 > span {
     font-style: italic;
 }
 
