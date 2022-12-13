@@ -460,7 +460,7 @@ li {
 
 .shop_items_products_item:hover .item_btn:hover {
     background-color: #000000;
-    filter: invert();
+    filter: invert(1);
 }
 
 .shop_items_products_item:hover .item_btn:active {
@@ -580,7 +580,6 @@ li {
     height: 341px;
     display: flex;
     justify-content: center;
-    justify-content: space-ar;
     align-items: center;
     max-width: 1140px;
     margin: 0 auto;
@@ -731,7 +730,6 @@ li {
     height: 120px;
     border-radius: 50%;
     background-position: center;
-    background-size: fill;
     background-image: url("../img/avatar.png");
 }
 
