@@ -838,8 +838,7 @@ footer {
 }
 
 .social_net_menu a:hover img {
-    /* background-color: #F16D7F; */
-   filter: invert() ;
+   filter: invert(1) ;
 }
 
 @media (min-width: 1025px) and (max-width: 1140px) {
