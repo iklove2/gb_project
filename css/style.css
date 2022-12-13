@@ -107,7 +107,6 @@ li {
   cursor: pointer;
   opacity: 0; 
   z-index: 2; 
-  -webkit-touch-callout: none;
 }
 
 .top_nav_menu_burger > span {
