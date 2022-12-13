@@ -110,7 +110,7 @@ li {
   -webkit-touch-callout: none;
 }
 
-.top_nav_menu_burger #button_line {
+.top_nav_menu_burger > span {
         display: block;
         width: 33px;
         height: 4px;
