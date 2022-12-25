@@ -398,6 +398,7 @@
                 if (cartEl.childElementCount === 1) {
                     cartEl.removeChild(titleCartEl);
                     cartEl.style.visibility = "hidden";
+                    cartEl.style.display = "none";
                 }
             });
 
@@ -413,6 +414,7 @@
         arrBtn.forEach(element => {
             element.addEventListener('click', (event) => {
                 if (cartEl.childElementCount === 0) {
+                    cartEl.style.display = "block";
                     cartEl.style.visibility = "visible";
                     cartEl.appendChild(titleCartEl);
                 }
