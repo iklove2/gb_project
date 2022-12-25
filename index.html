@@ -203,10 +203,7 @@
             </ul>
         </section>
 
-        <section class="cart">
-            <!-- <h2>Cart Items</h2> -->
-
-        </section>
+        <section class="cart"></section>
 
         <section class="subscribe">
             <div>
@@ -257,6 +254,7 @@
         
         const btnAllProducts = document.createElement('a');
         btnAllProducts.classList.add('shop_items_products_btn');
+        btnAllProducts.href = '#';
 
         const textBtnAllProducts = document.createElement('span');
         textBtnAllProducts.classList.add('shop_items_btn_text');
@@ -376,10 +374,10 @@
 
             descriptionEl.appendChild(titleEl);
             descriptionEl.appendChild(descriptionUl);
-            descriptionEl.appendChild(liElPrice);
-            descriptionEl.appendChild(liElColor);
-            descriptionEl.appendChild(liElSize);
-            descriptionEl.appendChild(liElQuantity);
+            descriptionUl.appendChild(liElPrice);
+            descriptionUl.appendChild(liElColor);
+            descriptionUl.appendChild(liElSize);
+            descriptionUl.appendChild(liElQuantity);
 
             const cartItemDel = document.createElement('button');
             cartItemDel.classList.add('cart_item_btn');
