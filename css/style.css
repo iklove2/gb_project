@@ -7,7 +7,6 @@
 
 body {
     width: 100%;
-    /*max-width: 1920px;*/
     margin: 0 auto;
 }
 
@@ -41,11 +40,11 @@ li {
     padding-left: calc(50% - 570px);
     padding-right: calc(50% - 570px);
     display: flex;
+    justify-content: space-between;
 }
 
 .top_header_btn_wrap {
-    margin-left: 16px;
-    width: 50%;
+    padding-left: 16px;
     display: flex;
 }
 
@@ -57,14 +56,15 @@ li {
 }
 
 .top_header_search_form {
-    width: 52px;
-    height: 28px;
+    padding-left: 41px;
+    padding-top: 28px;
+    padding-bottom: 19px;
+
+    /* width: 52px;
+    height: 28px; */
 }
 
 .top_header_search_form_btn {
-    margin-left: 41px;
-    margin-top: 28px;
-    margin-bottom: 19px;
     width: 26px;
     height: 28px;
     background-color: #222222;
@@ -75,10 +75,9 @@ li {
 
 
 .top_nav_menu {
-    width: 50%;
-    margin-top: 18px;
-    margin-bottom: 20px;
-    margin-right: 32px;
+    padding-top: 18px;
+    padding-bottom: 20px;
+    padding-right: 32px;
     display: flex;
     justify-content: flex-end;
 }
@@ -671,7 +670,6 @@ a.shop_items_products_btn {
     max-width: 1140px;
     margin: 0 auto;
     padding: 96px 0;
-    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
 }
 
 .cart h2 {
@@ -884,11 +882,10 @@ footer {
     padding-left: calc(50% - 570px);
     padding-right: calc(50% - 570px);
     display: flex;
+    justify-content: space-around;
 }
 
 .brand {
-    margin-left: 16px;
-    width: 50%;
     display: flex;
     font-size: 16px;
     color: #FBFBFB;
@@ -896,10 +893,8 @@ footer {
 }
 
 .social_net_menu {
-    width: 50%;
-    margin-top: 18px;
-    margin-bottom: 20px;
-    margin-right: 32px;
+    padding-top: 18px;
+    padding-bottom: 20px;
     display: flex;
     justify-content: flex-end;
     gap: 7px;
@@ -970,6 +965,29 @@ footer {
     .top_content_img {
         min-height: 368px;
         background-size: contain;
+    }
+
+    .shop_menu {
+        grid-template-columns: repeat(3, 232px);
+        gap: 18px;
+        position: relative;
+        margin-bottom: 110px;
+    }
+
+    .shop_menu_men {
+        min-height: 167px;
+    }
+
+    .shop_menu_women {
+        min-height: 167px;
+    }
+
+    .shop_menu_kids {
+        min-height: 167px;
+    }
+
+    .shop_menu_accessories {
+        min-height: 116px;
     }
 
     .subscribe_form form{
@@ -1150,7 +1168,7 @@ footer {
         flex-wrap: wrap;
         width: 100%;
         min-height: 302px;
-        filter: drop-shadow(17px 24px 19px rgba(0, 0, 0, 0.13));
+        filter: drop-shadow(0px 0px 0px rgba(0, 0, 0, 0.0));
         justify-content: center;
     }
 
@@ -1206,7 +1224,6 @@ footer {
     }
 
     .brand {
-        margin-left: 16px;
         width: 100%;
         font-size: 16px;
         padding-top: 0;
@@ -1217,8 +1234,8 @@ footer {
     
     .social_net_menu {
         width: 100%;
-        margin-top: 43px;
-        margin-bottom: 0;
+        padding-top: 43px;
+        padding-bottom: 0;
         justify-content: center;
     }
 }
